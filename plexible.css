@@ -1,3 +1,39 @@
-div{
-    display: flex;
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat:no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom:150px;
+
+}
+.half-width{
+    float:left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left:2%;
+}
+h1{
+    font-size: 50px;
+}
+.peter-parker-diffrent-color{
+    color:orange;
+    }
+    p{
+        color:dimgray;
+    }
+.anchor-button{
+    text-decoration:none;
+    padding:10px 50px;
+    background:linear-gradient(25deg, lightsalmon, tomato);
+    border-radius:5px;
+    color:white;
+    font-weight: 700;
+}
+.half-width img{
+    width: 100%;
 }
